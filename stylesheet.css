@@ -1,0 +1,58 @@
+body  {
+  background-image: url("images/OIP.jpg");
+    padding: 5x;
+    background-repeat: no-repeat;
+    background-size: 1300px 750px;
+    margin: auto;
+    
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    height: 40px;
+    border: white;
+    padding: 10px;
+    border-radius: 100px;
+  }
+  .container {
+    display: flex;
+    gap: 0.625%;
+    
+  }
+  
+  a {
+    flex: 1;
+    text-decoration: none;
+    outline-color: transparent;
+    text-align: center;
+    line-height: 3;
+    color: brown;
+  }
+  
+  a:link,
+  a:visited,
+  a:focus {
+    background:whitesmoke;
+    color: black;
+  }
+  
+  a:hover {
+    background: rgb(54, 53, 51);
+  }
+  
+  a:active {
+    background: darkred;
+    color: white;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    text-indent: 50px;
+  }
+  .column {
+    float: left;
+    width: 38%;
+    padding: 5px;
+    height: auto;
+  }

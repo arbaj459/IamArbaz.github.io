@@ -4,6 +4,8 @@ body  {
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+   height: 100%;
+   width:100%;
     
   }
   .center {
